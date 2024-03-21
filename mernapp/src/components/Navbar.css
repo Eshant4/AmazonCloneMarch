@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mainCont{
+    height: 100px;
+    top: 0;
+    /* position: sticky;
+    top: 0;
+    z-index: 100; */
+}
+.main-div1{
+    background-color: #131921;
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+
+}
+.navbar-address{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.header-nav{
+    display: flex;
+   justify-content: space-evenly;
+}
+.Flag-img{
+    width: 25px;
+    height: 20px;
+    align-items: last baseline;
+}
+.nav-option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+    cursor: pointer;
+}
+.nav-option2{
+    display: flex;
+    color: white;
+    align-items: last baseline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-option3{
+    display: flex;
+    color: white;
+    align-items: flex-end;
+}
+.location-nav{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.nav-option-cart{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+.option-line1{
+    font-size: 13px;
+    font-weight: 500;
+}
+.option-line2{
+    font-size: 15px;
+    font-weight: 700;
+}
+.main-div2{
+    background-color: rgb(17 33 42 / 93%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+.options-div2{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 5.6px;
+}
+.options-div2:hover{
+    border: solid 1px white;
+}
+.header-search{
+    display: flex;
+    flex: 0.8;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+}
+.header-searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+.header-searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042; 
+}
+.logo-img{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 10px;
+    margin-top: 10px;
+}
+.language-cont{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-right: 316px;
+    margin-top: 48px;
+    padding: 20px;
+    row-gap: 10px;
+    box-shadow: 2px grey;
+}
+.LoginOut-cont{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 7px;
+    font-weight: 700;
+    color: black;
+    margin-top: 44px;
+    margin-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
